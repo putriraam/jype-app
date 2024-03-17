@@ -36,9 +36,9 @@ export default function Navbar() {
                     </a>
                 </div>
                 <div>
-                <a href="./dropdown">
-                <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white" aria-controls="navbar-default" aria-expanded="false">
-                    <svg className="w-5 h-5" aria-hidden="true" fill="none" viewBox="0 0 17 14">
+                <a href="http://localhost:3000/dropdown">
+                <button className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white">
+                    <svg className="w-5 h-5">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
                     </svg>
                 </button>

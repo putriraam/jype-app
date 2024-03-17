@@ -1,0 +1,4 @@
+interface IHistoryForm {
+    children: string
+    
+}
