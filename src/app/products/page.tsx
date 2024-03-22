@@ -114,7 +114,7 @@ export default function AboutUs() {
                             </div>
                         </div>
                         <div className="chat chat-end lg:mx-16 mx-5">
-                            <div data-aos="fade-left" className="chat-bubble text-sm bg-red-400 text-white">
+                            <div data-aos="fade-left" className="chat-bubble text-sm bg-red-300 text-white">
                                 <h1 className="font-bold text-lg">TWICE Candy Bong Z - Sweetest Addition to My Concert Experience</h1>
                                 <div className="flex flex-row items-center">
                                     <h1>Rating:</h1>

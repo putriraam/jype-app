@@ -49,17 +49,17 @@ export default function AboutUs() {
                 </div>
                 <h1 className="lg:px-16 px-5 font-bold mt-16 lg:text-start text-center" data-aos="fade-right" >Management Organization Structure</h1>
                 <div className="flex overflow-x-hidden w-full lg:px-16 px-5 mt-5 gap-5 lg:flex-row flex-col justify-evenly items-center">  
-                    <div data-aos="fade-up-right" className="flex flex-col bg-slate-100 text-center p-3 justify-center items-center lg:w-96 lg:h-56 w-44 h-50 rounded-xl">
+                    <div data-aos="fade-up-right" className="flex flex-col bg-slate-100 text-center p-3 justify-center items-center w-96 h-56 rounded-xl">
                         <h1 className="font-bold mb-3">Comitee</h1>
                         <h1 className="text-xs">Setting the Direction for Strategies</h1>
                         <h1 className="text-xs">Playing a Central Role in Decision-making</h1>
                     </div>
-                    <div data-aos="fade-up" className="flex flex-col bg-slate-100 text-center p-3 justify-center items-center lg:w-96 lg:h-56 w-44 h-50 rounded-xl px-5">
+                    <div data-aos="fade-up" className="flex flex-col bg-slate-100 text-center p-3 justify-center items-center w-96 h-56 rounded-xl px-5">
                     <h1 className="font-bold mb-3">Advisory Committee</h1>
                         <h1 className="text-xs">Monitoring Performance and Reviewing Improvement Measures</h1>
                         <h1 className="text-xs">Publication of Sustainablity Report</h1>
                     </div>
-                    <div data-aos="fade-up-left" className="flex flex-col bg-slate-100 p-3 text-center justify-center items-center lg:w-96 lg:h-56 w-44 h-50 rounded-xl">
+                    <div data-aos="fade-up-left" className="flex flex-col bg-slate-100 p-3 text-center justify-center items-center w-96 h-56 rounded-xl">
                     <h1 className="font-bold mb-3">Task Force</h1>
                         <h1 className="text-xs">Establishing and Implementing Vision</h1>
                         <h1 className="text-xs">Providing Reports Contentss</h1>

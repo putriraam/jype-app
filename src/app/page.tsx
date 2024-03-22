@@ -6,14 +6,17 @@ export default function Home() {
   return (
     <div>
         <div className="flex h-screen bg-transparent fixed justify-center items-end w-screen z-[-1]">
-          <FaAngleDoubleDown size={60} color="black" className="animate-bounce sticky top-full mb-10"/>
+          <FaAngleDoubleDown size={60} color="black" className="animate-bounce sticky top-full mb-16"/>
         </div>
         <video src="video.mp4" autoPlay muted loop className="w-[100%] sticky top-0 bg-fixed overflow-y-scroll bg-cover h-screen object-cover z-[-10]"/>  
     
         <div className="bg-white">
-          <div className="pb-20">
+
+          <div className="relative">
               <Image src={twice4k} alt="" />
             </div>
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black"></div>
+            
             <div className="p-4 sm:p-8">
               <div className="font-inter text-2xl mt-20 font-extrabold tracking-tight text-black">
                 The shining this moment of TWICE
