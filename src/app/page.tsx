@@ -12,13 +12,12 @@ export default function Home() {
     
         <div className="bg-white">
 
-          <div className="relative">
-              <Image src={twice4k} alt="" />
-            </div>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black"></div>
+          <div>
+            <Image src={twice4k} alt="" />
+          </div>
             
             <div className="p-4 sm:p-8">
-              <div className="font-inter text-2xl mt-20 font-extrabold tracking-tight text-black">
+              <div className="font-inter text-2xl font-extrabold tracking-tight text-black">
                 The shining this moment of TWICE
               </div>
               <div className="mt-1 text-sm font-medium text-slate-500">
