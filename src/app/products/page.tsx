@@ -100,7 +100,7 @@ export default function AboutUs() {
                         <div className="w-full overflow-x-hidden">
                         <div className="chat chat-start lg:mx-16 mx-5">
                             <div data-aos="fade-right" className="chat-bubble text-sm bg-blue-400 text-white">
-                                <h1 className="font-bold text-lg">GOT7 'Breath of Love: Last Piece' Album Review - A Musical Masterpiece</h1>
+                                <h1 className="font-bold text-lg">GOT7 &apos;Breath of Love: Last Piece&apos; Album Review - A Musical Masterpiece</h1>
                                 <div className="flex flex-row items-center">
                                     <h1>Rating:</h1>
                                     <IoMdStar color="yellow"/>
@@ -110,7 +110,7 @@ export default function AboutUs() {
                                     <IoMdStar color="yellow"/> 
                                     <h1 className="ml-1">5/5</h1>
                                 </div>
-                                <h1 className="text-justify">Review: "GOT7's 'Breath of Love: Last Piece' album is a true gem in their discography. Each song on this album feels like a work of art, showcasing the group's maturity and musical growth. The photobook and packaging are beautifully designed, with stunning visuals that perfectly complement the music. I also appreciate the inclusion of extra goodies like photocards and stickers, which add a personal touch to the album. Whether you're a longtime Ahgase or a new fan, 'Breath of Love: Last Piece' is a must-have addition to your collection. It's a testament to GOT7's talent and artistry."</h1>
+                                <h1 className="text-justify">Review: &quot;GOT7&apos;s &apos;Breath of Love: Last Piece&apos; album is a true gem in their discography. Each song on this album feels like a work of art, showcasing the group&apos;s maturity and musical growth. The photobook and packaging are beautifully designed, with stunning visuals that perfectly complement the music. I also appreciate the inclusion of extra goodies like photocards and stickers, which add a personal touch to the album. Whether you&apos;re a longtime Ahgase or a new fan, &apos;Breath of Love: Last Piece&apos; is a must-have addition to your collection. It&apos;s a testament to GOT7&apos;s talent and artistry.&quot;</h1>
                             </div>
                         </div>
                         <div className="chat chat-end lg:mx-16 mx-5">
@@ -125,7 +125,7 @@ export default function AboutUs() {
                                     <IoMdStarHalf color="yellow"/> 
                                     <h1 className="ml-1">4.5/5</h1>
                                 </div>
-                                <h1 className="text-justify">Review: "I recently got my hands on the TWICE Candy Bong Z lightstick, and I'm absolutely thrilled with it! The design is adorable and perfectly captures TWICE's colorful and playful vibe. Functionally, it's fantastic - easy to use and the lights are bright and vibrant, making it a standout accessory at TWICE concerts. The battery life is impressive, lasting through multiple shows without needing a recharge. My only tiny complaint is that I wish it came with a carrying case for easier transport, but overall, I'm extremely happy with my purchase. If you're a Once, the Candy Bong Z is a must-have for any concert or fan event!"</h1>
+                                <h1 className="text-justify">Review: &quot;I recently got my hands on the TWICE Candy Bong Z lightstick, and I&apos;m absolutely thrilled with it! The design is adorable and perfectly captures TWICE&apos;s colorful and playful vibe. Functionally, it&apos;s fantastic - easy to use and the lights are bright and vibrant, making it a standout accessory at TWICE concerts. The battery life is impressive, lasting through multiple shows without needing a recharge. My only tiny complaint is that I wish it came with a carrying case for easier transport, but overall, I&apos;m extremely happy with my purchase. If you&apos;re a Once, the Candy Bong Z is a must-have for any concert or fan event!&quot;</h1>
                             </div>
                         </div>
                         <div className="chat chat-start lg:mx-16 mx-5">
@@ -140,12 +140,12 @@ export default function AboutUs() {
                                     <IoMdStarOutline color="yellow"/>  
                                     <h1 className="ml-1">4/5</h1>
                                 </div>
-                                <h1 className="text-justify">Review: "The ITZY Official Light Ring is a sleek and stylish accessory for any Midzy attending their concerts. The design is simple yet eye-catching, and the light ring is comfortable to hold during performances. The functionality is straightforward, with easy-to-use buttons and bright, colorful lights that sync perfectly with ITZY's energetic performances. While I love the overall design and functionality, I wish the battery life was a bit longer to fully enjoy it throughout the entire concert experience. Nevertheless, it's a must-have for any dedicated Midzy looking to show their support for ITZY!""</h1>
+                                <h1 className="text-justify">Review: &quot;The ITZY Official Light Ring is a sleek and stylish accessory for any Midzy attending their concerts. The design is simple yet eye-catching, and the light ring is comfortable to hold during performances. The functionality is straightforward, with easy-to-use buttons and bright, colorful lights that sync perfectly with ITZY&apos;s energetic performances. While I love the overall design and functionality, I wish the battery life was a bit longer to fully enjoy it throughout the entire concert experience. Nevertheless, it&apos;s a must-have for any dedicated Midzy looking to show their support for ITZY!&quot;</h1>
                             </div>
                         </div>
                         <div className="chat chat-end lg:mx-16 mx-5">
                             <div data-aos="fade-left" className="chat-bubble text-sm bg-orange-400 text-white mb-10">
-                                <h1 className="font-bold text-lg">DAY6 'The Book of Us: The Demon' Album Review - A Dark and Captivating Journey</h1>
+                                <h1 className="font-bold text-lg">DAY6 &apos;The Book of Us: The Demon&apos; Album Review - A Dark and Captivating Journey</h1>
                                 <div className="flex flex-row items-center">
                                     <h1>Rating:</h1>
                                     <IoMdStar color="yellow"/>
@@ -155,7 +155,7 @@ export default function AboutUs() {
                                     <IoMdStarOutline color="yellow"/> 
                                     <h1 className="ml-1">4/5</h1>
                                 </div>
-                                <h1 className="text-justify">Review: "DAY6's 'The Book of Us: The Demon' album is a hauntingly beautiful masterpiece that delves into themes of love, loss, and self-discovery. Each song on this album is like a chapter in a gripping novel, taking listeners on an emotional journey from start to finish. The photobook is filled with mesmerizing visuals that perfectly capture the album's dark and captivating atmosphere. While I appreciate the inclusion of extra goodies like photo cards and stickers, I wish there were more exclusive content to dive deeper into the album's concept. Nevertheless, 'The Book of Us: The Demon' is a must-have for any My Day. It's a testament to DAY6's musical talent and storytelling prowess."</h1>
+                                <h1 className="text-justify">Review: &quot;DAY6&apos;s &apos;The Book of Us: The Demon&apos; album is a hauntingly beautiful masterpiece that delves into themes of love, loss, and self-discovery. Each song on this album is like a chapter in a gripping novel, taking listeners on an emotional journey from start to finish. The photobook is filled with mesmerizing visuals that perfectly capture the album&apos;s dark and captivating atmosphere. While I appreciate the inclusion of extra goodies like photo cards and stickers, I wish there were more exclusive content to dive deeper into the album&apos;s concept. Nevertheless, &apos;The Book of Us: The Demon&apos; is a must-have for any My Day. It&apos;s a testament to DAY6&apos;s musical talent and storytelling prowess.&quot;</h1>
                             </div>
                         </div>
                         </div>

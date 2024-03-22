@@ -22,9 +22,9 @@ export default function AboutUs() {
                 <div className="flex flex-col gap-4 lg:px-56 text-justify">
                     <h1 className="font-bold text-lg mt-5" data-aos="fade-up">LEADER IN INTERTAIMENT</h1>
                     <h1 data-aos="fade-up">is the value and goal that JYP Entertainment constantly pursues. Based on this motto, JYP Entertainment strives to become the leading company that brings change to the entertainment industry.</h1>
-                    <h1 data-aos="fade-up">Led by Asia's best producer Jin Young Park, the company has produced many global artists, including god, Rain, Wonder Girls, 2PM, 2AM, miss A, GOT7, TWICE, Stray Kids, ITZY, Xdinary Heroes, and NMIXX in Korea; NiziU in Japan; BOY STORY, and YAOCHEN in China.</h1>
-                    <h1 data-aos="fade-up">In the business area, the company has expanded K-pop's influence by communicating with the worldwide music industry through the company's oversea subsidiaries JYP USA, JYP JAPAN, and JYP CHINA. Additionally, the company founded JYP Three Sixty to expand the IP business to the platform business.</h1>
-                    <h1 data-aos="fade-up">The company also invests in discovering and raising creative, proactive talents and lives up to the core values of being a 'Leading Company' and 'Respected Company' as the 'Leader in Entertainment.'</h1>
+                    <h1 data-aos="fade-up">Led by Asia&apos;s best producer Jin Young Park, the company has produced many global artists, including god, Rain, Wonder Girls, 2PM, 2AM, miss A, GOT7, TWICE, Stray Kids, ITZY, Xdinary Heroes, and NMIXX in Korea; NiziU in Japan; BOY STORY, and YAOCHEN in China.</h1>
+                    <h1 data-aos="fade-up">In the business area, the company has expanded K-pop&apos;s influence by communicating with the worldwide music industry through the company&apos;s oversea subsidiaries JYP USA, JYP JAPAN, and JYP CHINA. Additionally, the company founded JYP Three Sixty to expand the IP business to the platform business.</h1>
+                    <h1 data-aos="fade-up">The company also invests in discovering and raising creative, proactive talents and lives up to the core values of being a &apos;Leading Company&apos; and &apos;Respected Company&apos; as the &apos;Leader in Entertainment.&apos;</h1>
                     <h1 data-aos="fade-up">JYP Entertainment abides by the law, morality, and social norms by managing the business transparently. As the industry leader, the company will continue to carry out duties and responsibilities as a trustworthy member of society.</h1>
                 </div>
                 <div className="flex flex-col py-5 w-full">
@@ -36,7 +36,7 @@ export default function AboutUs() {
                 </div>
                 <div className="flex w-full pl-5 pr-5 flex-col justify-center items-center">
                     <h1 className="font-bold text-lg mb-5 mt-5" data-aos="fade-left">LEADER OF CHANGE</h1>
-                    <h1 className="text-justify" data-aos="fade-up">Under the direction of the company's value and goal, 'LEADER IN ENTERTAINMENT', JYP Entertainment established the ESG vision of 'Leader of Change' to practice sustainable management. As a leader bringing about new changes, we strive to exert a positive influence to create a sustainable world.</h1>
+                    <h1 className="text-justify" data-aos="fade-up">Under the direction of the company&apos;s value and goal, &apos;LEADER IN ENTERTAINMENT&apos;, JYP Entertainment established the ESG vision of &apos;Leader of Change&apos; to practice sustainable management. As a leader bringing about new changes, we strive to exert a positive influence to create a sustainable world.</h1>
                 </div>
                 </div>
                 <div className="flex flex-col py-5 w-full">
@@ -44,7 +44,7 @@ export default function AboutUs() {
                 </div>
                 <div className="flex w-full lg:px-16 px-5 flex-col justify-center items-center">
                     <h1 className="font-bold text-lg mb-5 mt-5" data-aos="fade-down">MANAGEMENT SYSTEM</h1>
-                        <h1 className="text-center" data-aos="fade-up">In order to more systematically implement the ESG vision of 'Leader of Change',</h1>
+                        <h1 className="text-center" data-aos="fade-up">In order to more systematically implement the ESG vision of &apos;Leader of Change&apos;,</h1>
                         <h1 className="text-center" data-aos="fade-up">JYP Entertainment established an ESG Committee under its Board of Directors and operates an ESG Advisory Committeeand ESG Operations Advisory Board to conduct activities related to environmental and social responsibilities.</h1>
                 </div>
                 <h1 className="lg:px-16 px-5 font-bold mt-16 lg:text-start text-center" data-aos="fade-right" >Management Organization Structure</h1>
