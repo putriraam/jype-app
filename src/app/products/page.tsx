@@ -56,7 +56,7 @@ export default function AboutUs() {
                     <div className="flex flex-col py-5 w-full">
                     <div className="divider"></div>
                 </div>
-                    <h1 className="text-center font-extrabold text-2xl mb-10">ARTIST</h1>
+                    <h1 className="text-center font-extrabold text-2xl mb-10">PICK YOUR ARTIST</h1>
                         <div className="lg:px-16 sm:px-5 px-0 mb-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 font-bold" data-aos="fade-up" data-aos-duration="1000">
                             <div>
                                 <h1 className="lg:block hidden">2PM</h1>
@@ -83,7 +83,7 @@ export default function AboutUs() {
                                 <Image src={itzy} alt="twopm" className="w-[100%] h-[100%] object-cover sm:w-72 hover:brightness-50 transition duration-100" />
                             </div>
                             <div>
-                                <h1 className="lg:block hidden mt-5">XDINARY HEROES</h1>
+                                <h1 className="lg:block hidden mt-5">NMIXX</h1>
                                 <Image src={nmixxphoto} alt="twopm" className="w-[100%] h-[100%] object-cover sm:w-72 hover:brightness-50 transition duration-100" />
                             </div>
                             <div>

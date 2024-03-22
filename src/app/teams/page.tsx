@@ -14,8 +14,9 @@ export default async function Teams(){
     return(
         <div className="flex bg-white flex-col w-full pt-20 px-5 pb-16">
             <h1 className="text-center font-extrabold text-2xl mb-5">OUR TEAMS</h1>
+            
                     <div className="flex mt-10 lg:flex-row flex-col">
-                        <div className="flex flex-col lg:w-1/2 w-full items-start text-justify lg:px-32">
+                        <div className="flex flex-col lg:w-1/2 w-full text-justify lg:px-32">
                             <h1 className="mb-2 font-bold text-lg">COMMITEE TEAMS</h1>
                             <h1>Our Commitee Teams serves as the engine behind our efforts to integrate environmental stewardship, social responsibility, and strong governance principles into everything we do. We&apos;re a diverse team of passionate individuals united by a shared vision of creating a positive impact on our planet and society.</h1>
                             <h1 className="mb-2 font-bold text-lg lg:mt-16 mt-7">ADVISORY COMMITEE TEAMS</h1>
