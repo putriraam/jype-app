@@ -7,6 +7,9 @@ export default function Template({children}: Readonly<{children: React.ReactNode
         <div>
             <Navbar/>
             {children}
+            <div className="flex justify-end items-end">
+                <Footer/>
+            </div>
         </div>
     )
 }

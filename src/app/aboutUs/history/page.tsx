@@ -1,25 +1,30 @@
+import { Metadata } from "next";
+import Link from "next/link";
+
+export const metadata: Metadata = {
+    title: "HISTORY",
+    description: "JYP Entertaiment | HISTORY"
+}
+
 export default function History() {
     return(
-        <div className="flex bg-slate-800 min-h-screen min-w-screen justify-center pt-32 pl-5 pr-5 pb-16">
-            <div className="flex flex-1 flex-col text-white">
-                <div className="flex justify-center">
-                    <h1 className="font-black text-xl">ABOUT</h1>
-                </div>
-                <div className="flex gap-7 mt-3 justify-center">
-                    <a href="/aboutUs"><h1>JYPE</h1></a>
-                    <a href="/aboutUs/history"><span className="border-b border-transparent pb-1 border-white">HISTORY</span></a>
-                    <a href="/aboutUs/culture"><h1>CULTURE</h1></a>
+        <div className="flex bg-white min-h-screen min-w-screen justify-center pt-20 pl-5 pr-5 pb-16">
+            <div className="flex flex-1 flex-col text-black">
+            <h1 className="text-center font-extrabold text-2xl mb-5">ABOUT</h1>
+                <div className="flex gap-10 mt-3 justify-center">
+                    <Link href="/aboutUs"><h1>JYP</h1></Link>
+                    <Link href="/aboutUs/history"><span className="border-b-4 pb-1 border-y-blue-400 font-semibold">HISTORY</span></Link>
                 </div>
 
                 <div className="flex flex-col mt-20 lg:pl-32 lg:pr-32">
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2024</div>
                             <div className="flex flex-row gap-8">
                                 <h1 className="font-bold text-sm">01</h1>
                                 <h1 className="font-light text-sm">VCHA Debut</h1>
                             </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2023</div>
                         <div className="flex flex-col gap-5">
                         <div className="flex flex-row gap-8">
@@ -36,7 +41,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-20">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-20" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2022</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex gap-8">
@@ -49,7 +54,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2021</div>
                         <div className="flex flex-col gap-5">
                         <div className="flex flex-row gap-8">
@@ -62,14 +67,14 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2020</div>
                             <div className="flex flex-row gap-8">
                                 <h1 className="font-bold text-sm">12</h1>
                                 <h1 className="font-light text-sm">NiziU Debut</h1>
                             </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2019</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -82,7 +87,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2018</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -99,7 +104,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2017</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -112,7 +117,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2015</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -125,7 +130,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2014</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -138,7 +143,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2013</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -147,7 +152,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2012</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -160,7 +165,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2010</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -173,7 +178,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2008</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -194,7 +199,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2007</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -203,7 +208,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2005</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -212,7 +217,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2002</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -233,7 +238,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2001</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -242,7 +247,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">2000</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -251,7 +256,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">1999</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">
@@ -260,7 +265,7 @@ export default function History() {
                             </div>
                         </div>
                      </div>
-                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16">
+                     <div className="flex md:flex-row flex-col md:gap-7 gap-2 mb-16" data-aos="fade-up">
                         <div className="flex mr-16 font-semibold text-base">1997</div>
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-8">

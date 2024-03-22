@@ -1,4 +1,0 @@
-interface IHistoryForm {
-    children: string
-    
-}

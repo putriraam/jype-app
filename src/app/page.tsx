@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      <video src={require("../../public/video.mp4")} autoPlay muted loop className="absolute w-[100%] h-[100%] z-[-1] object-cover"/>
+    <video src="video.mp4" autoPlay muted loop className="w-[100%] h-screen object-cover z-[-1]"/>
     </div>
   );
 }
