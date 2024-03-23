@@ -12,11 +12,11 @@ export default function Home() {
     
         <div className="bg-white">
 
-          <div className="flex absolute h-screen w-full bg-transparent mt-28 justify-center items-center">
-            <h1 className="text-6xl text-white font-black border-4 border-black ps-2">The shining this moment of TWICE</h1>
-          </div>
+          {/* <div className="flex absolute h-[600px] w-full bg-transparent justify-center items-end">
+            <h1 className="text-6xl text-white font-black border-4 border-black z-[1]" data-aos="zoom-in">The shining moment of TWICE</h1>
+          </div> */}
           <div> 
-            <Image src={twice4k} alt="" className="" />
+            <Image src={twice4k} alt="" className="z-[-1]" data-aos="fade-up"/>
           </div>
             
             <div className="p-4 sm:p-8">
