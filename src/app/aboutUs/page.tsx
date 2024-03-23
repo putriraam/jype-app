@@ -10,7 +10,10 @@ export const metadata: Metadata = {
 
 export default function AboutUs() {
     return(
+        <div>
+        <div className="flex sticky bg-white top-0 h-20 w-screen z-[1]"></div>
         <div className="flex bg-white flex-col min-full justify-center pt-20 pb-32 px-5">
+            
             <h1 className="text-center font-extrabold text-2xl mb-5">ABOUT</h1>
                 <div className="flex gap-10 mt-3 justify-center">
                     <Link href="/aboutUs"><span className="border-b-4 pb-1 border-y-blue-400 font-semibold">JYPE</span></Link>
@@ -66,6 +69,7 @@ export default function AboutUs() {
                         <h1 className="text-xs">Supporting Various Projects</h1>
                     </div> 
                 </div>
+        </div>
         </div>
     )
 }

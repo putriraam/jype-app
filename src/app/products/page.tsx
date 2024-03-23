@@ -24,7 +24,9 @@ export const metadata: Metadata = {
 
 export default function AboutUs() {
     return(
-        <div className="flex bg-white flex-col w-full justify-center pt-20 lg:px-5 px-0 pb-16">
+        <div>
+            <div className="flex sticky bg-white top-0 h-20 w-screen z-[1]"></div>
+            <div className="flex bg-white flex-col w-full justify-center pt-20 lg:px-5 px-0 pb-16">
             <h1 className="text-center font-extrabold text-2xl mb-5">ALBUM</h1>
                 <div className="carousel carousel-center w-screen p-4 space-x-4 rounded-box">
                     <div className="carousel-item relative flex-col justify-center items-center group">
@@ -99,7 +101,7 @@ export default function AboutUs() {
 
                         <div className="w-full overflow-x-hidden">
                         <div className="chat chat-start lg:mx-16 mx-5">
-                            <div data-aos="fade-right" className="chat-bubble text-sm bg-blue-400 text-white">
+                            <div data-aos="zoom-in" className="chat-bubble text-sm bg-blue-400 text-white">
                                 <h1 className="font-bold text-lg">GOT7 &apos;Breath of Love: Last Piece&apos; Album Review - A Musical Masterpiece</h1>
                                 <div className="flex flex-row items-center">
                                     <h1>Rating:</h1>
@@ -114,7 +116,7 @@ export default function AboutUs() {
                             </div>
                         </div>
                         <div className="chat chat-end lg:mx-16 mx-5">
-                            <div data-aos="fade-left" className="chat-bubble text-sm bg-rose-400 text-white">
+                            <div data-aos="zoom-in" className="chat-bubble text-sm bg-rose-400 text-white">
                                 <h1 className="font-bold text-lg">TWICE Candy Bong Z - Sweetest Addition to My Concert Experience</h1>
                                 <div className="flex flex-row items-center">
                                     <h1>Rating:</h1>
@@ -129,7 +131,7 @@ export default function AboutUs() {
                             </div>
                         </div>
                         <div className="chat chat-start lg:mx-16 mx-5">
-                            <div data-aos="fade-right" className="chat-bubble text-sm bg-purple-500 text-white">
+                            <div data-aos="zoom-in" className="chat-bubble text-sm bg-purple-500 text-white">
                                 <h1 className="font-bold text-lg">ITZY Official Light Ring - Shine Bright Like ITZY</h1>
                                 <div className="flex flex-row items-center">
                                     <h1>Rating:</h1>
@@ -144,7 +146,7 @@ export default function AboutUs() {
                             </div>
                         </div>
                         <div className="chat chat-end lg:mx-16 mx-5">
-                            <div data-aos="fade-left" className="chat-bubble text-sm bg-orange-400 text-white mb-10">
+                            <div data-aos="zoom-in" className="chat-bubble text-sm bg-orange-400 text-white mb-10">
                                 <h1 className="font-bold text-lg">DAY6 &apos;The Book of Us: The Demon&apos; Album Review - A Dark and Captivating Journey</h1>
                                 <div className="flex flex-row items-center">
                                     <h1>Rating:</h1>
@@ -160,5 +162,6 @@ export default function AboutUs() {
                         </div>
                         </div>
                 </div>
+        </div>
     )
 }

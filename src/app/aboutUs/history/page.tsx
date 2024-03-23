@@ -8,7 +8,10 @@ export const metadata: Metadata = {
 
 export default function History() {
     return(
+        <div>
+        <div className="flex sticky bg-white top-0 h-20 w-screen z-[1]"></div>
         <div className="flex bg-white min-h-screen min-w-screen justify-center pt-20 pl-5 pr-5 pb-16">
+            
             <div className="flex flex-1 flex-col text-black">
             <h1 className="text-center font-extrabold text-2xl mb-5">ABOUT</h1>
                 <div className="flex gap-10 mt-3 justify-center">
@@ -281,5 +284,6 @@ export default function History() {
                 </div>
             </div>
         </div>
-    )
+    </div>
+    )        
 }

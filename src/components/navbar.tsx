@@ -8,7 +8,7 @@ import Link from "next/link"
 
 export default function Navbar() {
     return(
-        <div className="flex fixed w-full justify-between h-20 z-[1] bg-gradient-to-b from-neutral-600 to-transparent">
+        <div className="flex fixed w-full justify-between h-20 z-10">
             <div className="flex justify-start items-center lg:ml-16 ml-5">
                 <Link href="/">
                     <Image src={logo} alt="logo" priority={true} className="h-[35px] w-auto "/>
