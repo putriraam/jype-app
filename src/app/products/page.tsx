@@ -6,6 +6,7 @@ import twice from "../../../public/tw.jpg"
 import twphoto from "../../../public/twice.jpg"
 import skz from "../../../public/skz.jpg"
 import straykids from "../../../public/straykids.jpg"
+import strayphoto from "../../../public/skzphoto.jpg"
 import itzy from "../../../public/itzy.jpg"
 import itzyphoto from "../../../public/itzyphoto.jpeg"
 import xdh from "../../../public/xdh.jpg"
@@ -50,7 +51,7 @@ export default function AboutUs() {
                     </div> 
                     <div className="carousel-item relative flex-col justify-center items-center group">
                         <div className="flex w-[500px] h-[300px]"  data-aos="zoom-in">
-                            <Image src={skz} alt="" className="w-full rounded-box object-cover group-hover:brightness-50 group-hover:space-x-44" />
+                            <Image src={strayphoto} alt="" className="w-full rounded-box object-cover group-hover:brightness-50 group-hover:space-x-44" />
                         </div>
                     </div> 
                     <div className="carousel-item relative flex-col justify-center items-center group">

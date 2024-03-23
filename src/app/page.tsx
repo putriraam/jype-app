@@ -6,11 +6,24 @@ import { IoMdStarOutline } from "react-icons/io";
 import { IoMdStar } from "react-icons/io";
 import twice4k from "../../public/twice4k.jpg"
 import jypark from "../../public/jypark.webp"
+import twopm from "../../public/2pm.jpeg"
 import day6 from "../../public/day6.jpg"
+import d6 from "../../public/d6.jpg"
 import twice from "../../public/tw.jpg"
+import twphoto from "../../public/twice.jpg"
 import skz from "../../public/skz.jpg"
+import straykids from "../../public/straykids.jpg"
+import strayphoto from "../../public/skzphoto.jpg"
+import itzy from "../../public/itzy.jpg"
+import itzyphoto from "../../public/itzyphoto.jpeg"
 import xdh from "../../public/xdh.jpg"
+import xh from "../../public/xh.jpeg"
 import nmixx from "../../public/nmixx.jpg"
+import nmixxphoto from "../../public/nmixxphoto.jpg"
+import niziu from "../../public/niziu.jpg"
+import candybong from "../../public/candybong.webp"
+import nmixxlight from "../../public/nmixxlight.jpg"
+import niziulight from "../../public/niziulight.webp"
 import jypbuilding from "../../public/download.png"
 import Link from "next/link";
 
@@ -84,16 +97,31 @@ export default function Home() {
                       <Image src={nmixx} className="object-cover" alt="nmixx" />
                       </div> 
                       <div className="carousel-item w-full">
+                      <Image src={itzyphoto} className="object-cover" alt="day6" />
+                      </div>  
+                      <div className="carousel-item w-full">
+                      <Image src={strayphoto} className="object-cover" alt="day6" />
+                      </div>  
+                      <div className="carousel-item w-full">
                       <Image src={day6} className="object-cover" alt="day6" />
                       </div>  
                   </div>
                   <h1 data-aos="fade-left" className="font-bold text-xl mb-3 mt-5">LIGHTSTICK</h1>
                   <div data-aos="zoom-in" className="w-96 h-56 carousel rounded-box">
                       <div className="carousel-item w-full">
-                      <Image src={skz} className="object-cover" alt="twice" />
+                      <Image src={candybong} className="object-cover" alt="twice" />
+                      </div>
+                      <div className="carousel-item w-full">
+                      <Image src={nmixxlight} className="object-cover" alt="twice" />
                       </div> 
                       <div className="carousel-item w-full">
-                      <Image src={xdh} className="object-cover" alt="nmixx" />
+                      <Image src={niziulight} className="object-cover" alt="twice" />
+                      </div> 
+                      <div className="carousel-item w-full">
+                      <Image src={skz} className="object-cover" alt="nmixx" />
+                      </div> 
+                      <div className="carousel-item w-full">
+                      <Image src={xdh} className="object-cover" alt="twice" />
                       </div> 
                   </div>
                 </div>
