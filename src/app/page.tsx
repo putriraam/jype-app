@@ -31,9 +31,9 @@ export default function Home() {
   return (
     <div>
         <div className="flex h-screen bg-transparent fixed justify-center items-end w-screen z-[-1]">
-          <FaAngleDoubleDown size={60} color="black" className="animate-bounce sticky top-full mb-10"/>
+          <FaAngleDoubleDown size={60} color="black" className="animate-bounce sticky top-full mb-20"/>
         </div>
-        <video src="video.mp4" autoPlay muted loop className="w-[100%] sticky top-0 bg-fixed overflow-y-scroll bg-cover h-screen object-cover z-[-10]"/>  
+        <video src="video.mp4" autoPlay={true} muted loop className="w-[100%] sticky top-0 bg-fixed overflow-y-scroll bg-cover h-screen object-cover z-[-10]"/>  
     
         <div className="bg-white">
           <div className="flex"> 
@@ -83,11 +83,16 @@ export default function Home() {
 
                 <div className="flex lg:flex-row flex-col justify-center items-center w-full">
                 <div className="flex flex-col lg:items-start items-center lg:w-1/2 w-full">
-                  <h1 data-aos="fade-right" className="text-2xl font-extrabold lg:mr-32 mx-0">OUR PRODUCTS</h1>
+                  <Link href="/products">
+                    <div data-aos="fade-right" className="flex items-center gap-2">
+                      <h1 className="text-2xl font-extrabold">OUR PRODUCTS</h1>
+                      <FaArrowUpRightFromSquare/>
+                    </div>
+                  </Link>
                   <h1 data-aos="fade-right" className="lg:mr-32 mx-0 mt-3 text-justify"> JYP Entertainment releases albums for their artists, including popular groups such as TWICE, Stray Kids, GOT7, ITZY, and DAY6. These albums often include physical copies with CDs, photobooks, lyric sheets, and other collectibles.</h1>
                 </div>
               
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center ">
                   <h1 data-aos="fade-left" className="font-bold text-xl mb-3 mt-5">ALBUM</h1>
                   <div data-aos="zoom-in" className="w-96 h-56 carousel rounded-box">
                       <div className="carousel-item w-full">
