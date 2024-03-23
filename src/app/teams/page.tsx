@@ -15,15 +15,15 @@ export default async function Teams(){
         <div>
             <div className="flex sticky bg-white top-0 h-20 w-screen z-[1]"></div>
             <div className="flex bg-white flex-col w-full pt-20 px-5 pb-16">
-            <h1 className="text-center font-extrabold text-2xl mb-5">OUR TEAMS</h1>
+            <h1 className="text-center font-extrabold text-2xl mb-5">OUR TEAM</h1>
             
                     <div className="flex mt-10 lg:flex-row items-start flex-col">
                         <div className="flex flex-col lg:w-1/2 w-full text-justify lg:px-32">
-                            <h1 data-aos="fade-right"className="mb-2 font-bold text-lg">COMMITEE TEAMS</h1>
+                            <h1 data-aos="fade-right"className="mb-2 font-bold text-lg">COMMITEE TEAM</h1>
                             <h1 data-aos="fade-right">Our Commitee Teams serves as the engine behind our efforts to integrate environmental stewardship, social responsibility, and strong governance principles into everything we do. We&apos;re a diverse team of passionate individuals united by a shared vision of creating a positive impact on our planet and society.</h1>
-                            <h1 data-aos="fade-right" className="mb-2 font-bold text-lg lg:mt-16 mt-7">ADVISORY COMMITEE TEAMS</h1>
+                            <h1 data-aos="fade-right" className="mb-2 font-bold text-lg lg:mt-16 mt-7">ADVISORY COMMITEE TEAM</h1>
                             <h1 data-aos="fade-right">Our Advisory Committee Teams works hand in hand with internal stakeholders, including senior leadership, department heads, and cross-functional teams, to integrate considerations into our business operations and decision-making processes. Through collaboration and engagement, we strive to embed sustainability principles into the fabric of our organization and drive meaningful, lasting change.</h1>
-                            <h1 data-aos="fade-right" className="mb-2 font-bold text-lg lg:mt-16 mt-7">TASK FORCE TEAMS</h1>
+                            <h1 data-aos="fade-right" className="mb-2 font-bold text-lg lg:mt-16 mt-7">TASK FORCE TEAM</h1>
                             <h1 data-aos="fade-right"> Our Task Force Teams is poised to champion sustainability, drive positive social impact, and uphold the highest standards of governance. We firmly believe that integrating principles into our operations is not only essential for mitigating risks but also for fostering long-term value creation and societal well-being.</h1>
                         </div>
 

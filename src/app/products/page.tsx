@@ -7,11 +7,15 @@ import twphoto from "../../../public/twice.jpg"
 import skz from "../../../public/skz.jpg"
 import straykids from "../../../public/straykids.jpg"
 import itzy from "../../../public/itzy.jpg"
+import itzyphoto from "../../../public/itzyphoto.jpeg"
 import xdh from "../../../public/xdh.jpg"
 import xh from "../../../public/xh.jpeg"
 import nmixx from "../../../public/nmixx.jpg"
 import nmixxphoto from "../../../public/nmixxphoto.jpg"
 import niziu from "../../../public/niziu.jpg"
+import candybong from "../../../public/candybong.webp"
+import nmixxlight from "../../../public/nmixxlight.jpg"
+import niziulight from "../../../public/niziulight.webp"
 import { Metadata } from "next"
 import { IoMdStar } from "react-icons/io";
 import { IoMdStarHalf } from "react-icons/io";
@@ -30,36 +34,69 @@ export default function AboutUs() {
             <h1 className="text-center font-extrabold text-2xl mb-5">ALBUM</h1>
                 <div className="carousel carousel-center w-screen p-4 space-x-4 rounded-box">
                     <div className="carousel-item relative flex-col justify-center items-center group">
-                        <div className="flex w-[500px] h-[300px]">
+                        <div className="flex w-[500px] h-[300px]"  data-aos="zoom-in">
                             <Image src={twice} alt="" className="w-full rounded-box object-cover group-hover:brightness-50" />
                         </div>
                     </div> 
                     <div className="carousel-item relative flex-col justify-center items-center group">
-                        <div className="flex w-[500px] h-[300px]">
+                        <div className="flex w-[500px] h-[300px]"  data-aos="zoom-in">
                             <Image src={nmixx} alt="" className="w-full rounded-box object-cover group-hover:brightness-50 group-hover:space-x-44" />
                         </div>
                     </div> 
                     <div className="carousel-item relative flex-col justify-center items-center group">
-                        <div className="flex w-[500px] h-[300px]">
-                            <Image src={xdh} alt="" className="w-full rounded-box object-cover group-hover:brightness-50 group-hover:space-x-44" />
+                        <div className="flex w-[500px] h-[300px]"  data-aos="zoom-in">
+                            <Image src={itzyphoto} alt="" className="w-full rounded-box object-cover group-hover:brightness-50 group-hover:space-x-44" />
                         </div>
                     </div> 
                     <div className="carousel-item relative flex-col justify-center items-center group">
-                        <div className="flex w-[500px] h-[300px]">
+                        <div className="flex w-[500px] h-[300px]"  data-aos="zoom-in">
                             <Image src={skz} alt="" className="w-full rounded-box object-cover group-hover:brightness-50 group-hover:space-x-44" />
                         </div>
                     </div> 
                     <div className="carousel-item relative flex-col justify-center items-center group">
-                        <div className="flex w-[500px] h-[300px]">
+                        <div className="flex w-[500px] h-[300px]"  data-aos="zoom-in">
                             <Image src={day6} alt="" className="w-full rounded-box object-cover group-hover:brightness-50 group-hover:space-x-44" />
                         </div>
                     </div> 
                     </div>
                     <div className="flex flex-col py-5 w-full">
                     <div className="divider"></div>
-                </div>
+                    </div>
+
+                    <h1 className="text-center font-extrabold text-2xl mb-5">LIGHTSTICK</h1>
+                <div className="carousel carousel-center w-screen p-4 space-x-4 rounded-box">
+                    <div className="carousel-item relative flex-col justify-center items-center group">
+                        <div className="flex w-[500px] h-[300px]"  data-aos="zoom-in">
+                            <Image src={candybong} alt="" className="w-full rounded-box object-cover group-hover:brightness-50" />
+                        </div>
+                    </div> 
+                    <div className="carousel-item relative flex-col justify-center items-center group">
+                        <div className="flex w-[500px] h-[300px]"  data-aos="zoom-in">
+                            <Image src={nmixxlight} alt="" className="w-full rounded-box object-cover group-hover:brightness-50 group-hover:space-x-44" />
+                        </div>
+                    </div> 
+                    <div className="carousel-item relative flex-col justify-center items-center group">
+                        <div className="flex w-[500px] h-[300px]"  data-aos="zoom-in">
+                            <Image src={niziulight} alt="" className="w-full rounded-box object-cover group-hover:brightness-50 group-hover:space-x-44" />
+                        </div>
+                    </div> 
+                    <div className="carousel-item relative flex-col justify-center items-center group">
+                        <div className="flex w-[500px] h-[300px]"  data-aos="zoom-in">
+                            <Image src={skz} alt="" className="w-full rounded-box object-cover group-hover:brightness-50 group-hover:space-x-44" />
+                        </div>
+                    </div> 
+                    <div className="carousel-item relative flex-col justify-center items-center group">
+                        <div className="flex w-[500px] h-[300px]"  data-aos="zoom-in">
+                            <Image src={xdh} alt="" className="w-full rounded-box object-cover group-hover:brightness-50 group-hover:space-x-44" />
+                        </div>
+                    </div> 
+                    </div>
+                    <div className="flex flex-col py-5 w-full">
+                    <div className="divider"></div>
+                    </div>
+
                     <h1 className="text-center font-extrabold text-2xl mb-10">PICK YOUR ARTIST</h1>
-                        <div className="lg:px-16 sm:px-5 px-0 mb-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 font-bold" data-aos="fade-up" data-aos-duration="1000">
+                        <div className="lg:px-16 sm:px-5 px-0 mb-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 font-bold">
                             <div>
                                 <h1 className="lg:block hidden">2PM</h1>
                                 <Image src={twopm} alt="twopm" className="w-[100%] h-[100%] object-cover sm:w-72 hover:brightness-50 transition duration-100" />

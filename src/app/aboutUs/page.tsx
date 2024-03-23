@@ -20,7 +20,7 @@ export default function AboutUs() {
                     <Link href="/aboutUs/history"><span>HISTORY</span></Link>
                 </div>
                 <div className="flex my-12 mt-20 justify-center" data-aos="fade-up">
-                    <Image src={jyp} alt="jyp" className="w-[700px]"/>
+                    <Image src={jyp} alt="jyp" className="w-[500px]"/>
                 </div>
                 <div className="flex flex-col gap-4 lg:px-56 text-justify">
                     <h1 className="font-bold text-lg mt-5" data-aos="fade-up">LEADER IN INTERTAIMENT</h1>
