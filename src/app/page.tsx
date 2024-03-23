@@ -30,7 +30,7 @@ export default function Home() {
             <div className="flex flex-col px-5 lg:px-16">
               <div className="flex flex-col items-center mb-16 text-justify">
                 <h1 data-aos="fade-up" className="text-2xl font-extrabold lg:mx-32 mx-0 mt-20 mb-5">COMPANY OVERVIEW</h1>
-                <h1 data-aos="fade-up" className="mt-1 font-medium lg:mx-32 mx-0">JYP Entertainment is one of the "Big Three" entertainment companies in South Korea, alongside SM Entertainment and YG Entertainment. It was founded by Park Jin-young, a well-known singer, songwriter, and record producer, who has played a significant role in shaping the Korean entertainment industry. The company has made substantial contributions to the global phenomenon known as "Hallyu," or the Korean Wave, by producing successful K-pop artists and groups.</h1>
+                <h1 data-aos="fade-up" className="mt-1 font-medium lg:mx-32 mx-0">JYP Entertainment is one of the &quot;Big Three&quot; entertainment companies in South Korea, alongside SM Entertainment and YG Entertainment. It was founded by Park Jin-young, a well-known singer, songwriter, and record producer, who has played a significant role in shaping the Korean entertainment industry. The company has made substantial contributions to the global phenomenon known as &quot;Hallyu,&quot; or the Korean Wave, by producing successful K-pop artists and groups.</h1>
                 
                 <div className="flex lg:flex-row flex-col justify-center items-center w-full mt-10">
                     <div data-aos="zoom-in" className="flex justify-center pr-10 pl-16">
